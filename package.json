@@ -11,8 +11,8 @@
   },
   "scripts": {
     "start": "parcel index.html --open --no-cache --no-source-maps",
-    "build": "rm -rf dist; parcel build index.html --no-cache --no-source-maps --public-url=/",
-    "gh-pages": "gh-pages -d dist"
+    "build": "rm -rf dist; parcel build index.html --no-cache --no-source-maps --public-url=/game_of_life",
+    "gh-pages": "npm run build; gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
