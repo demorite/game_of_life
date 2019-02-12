@@ -1,0 +1,20 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "parcel": "^1.11.0",
+    "sass": "^1.17.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --open --no-cache --no-source-maps",
+    "build": "rm -rf dist; parcel build index.html --no-cache --no-source-maps --public-url=/",
+    "gh-pages": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
